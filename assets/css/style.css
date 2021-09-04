@@ -1,104 +1,108 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-*   {
+* {
     box-sizing: border-box;
-    }
+}
 
 body {
     font-family: Lato;
     color: #FFFFFF;
-    background : #2e377f;
+    background: #2e377f;
 }
 
-h2  {
+h2 {
     font-family: Lato;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #FFFFFF;
     margin-left: -1%;
     display: inline;
- 
+
 }
- #header {
+
+#header {
     margin: 0;
     border-bottom: 1px solid #28306C;
     color: #ffffff;
 }
 
 /* Hero image */
-#hero-image{	
-    height:600px;	
-  width: 100%;	
+#hero-image {
+    height: 600px;
+    width: 100%;
     background: url('assets/images/hero_image.jpg')no-repeat center center;
-    background-size: contain;	
-    animation-name: hero-zoom;	
-    animation-duration: 5s;	
+    background-size: contain;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
-    margin-top: 5%;	
+    margin-top: 5%;
 }
 
-#hero-outer{	
-    height:600px;	
-    width: 100%;	
+#hero-outer {
+    height: 600px;
+    width: 100%;
     position: relative;
     margin-bottom: 10%;
-}	
-.responsive{
-    display: 100%;
-  height: auto;
 }
 
-@keyframes hero-zoom {	
-    from{	
-        transform: scale(1);	
-    }	
-    to{	
-        transform: scale(1.1);	
-    }	
+.responsive {
+    display: 100%;
+    height: auto;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
     }
-/*end of hero image*/ 
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/*end of hero image*/
 
 /* SECTION THREE CLASS TIMES */
 
-#thisweek{
+#thisweek {
     margin-top: 120px !important;
     margin-left: 50px;
-  }
-  
-  .column {
+}
+
+.column {
     float: left;
     width: 25%;
     padding: 5px;
-  }
-  
-  .row::after {
+}
+
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  .thisweek-container {
+}
+
+.thisweek-container {
     position: relative;
     width: 90%;
-  }
-  
-  .thisweek-text {
+}
+
+.thisweek-text {
     background-color: #ffffff;
     color: #28306C;
     font-size: 16px;
     padding: 16px 32px;
-  }
-  
-  .image {
+}
+
+.image {
     opacity: 1;
     display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
-  
-  .middle {
+}
+
+.middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -107,22 +111,144 @@ h2  {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  .thisweek-container:hover .image {
+}
+
+.thisweek-container:hover .image {
     opacity: 0.3;
-  }
-  
-  .thisweek-container:hover .middle {
+}
+
+.thisweek-container:hover .middle {
     opacity: 1;
-  }
-  
-  
-  
-  @media screen and (max-width: 600px) {
+}
+
+
+
+@media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
+
 /*end of class times*/
-  
+
+/* who we are*/
+.whoweare-header {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-top: 5%;
+    display: inline-block;
+}
+
+.whoweare-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: right;
+    display: inline-block;
+}
+
+.whoweare-bg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+    margin: 0;
+}
+
+.col-whoweare {
+    position: relative;
+    min-height: 200px;
+}
+
+.whoweare-text {
+    position: absolute;
+    background-color: #FFF;
+    padding: 2.5rem;
+    border: 0px solid rgba(194, 194, 194);
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    z-index: 1;
+    overflow-x: scroll;
+    min-height: 200px;
+    max-height: 400px;
+    color: #28306C
+}
+
+.whoweare-text h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* S2 - Our Team*/
+.ourteam-text-left .whoweare-text {
+    right: -10%;
+}
+
+.ourteam-text-left .whoweare-bg {
+    margin-left: -10%;
+}
+
+#ourteam {
+    margin-bottom: 72px;
+}
+
+#ourteam .whoweare-bg {
+    background: url('../images/our-team.png')no-repeat;
+}
+
+/* S2 - Our Community*/
+.ourcommunity-text-left .whoweare-text {
+    left: -10%;
+}
+
+.ourcommunity-text-left .whoweare-bg {
+    margin-right: -10%;
+}
+
+#ourcommunity {
+    margin-bottom: 72px;
+}
+
+#ourcommunity .whoweare-bg {
+    background: url('../images/our-community.png')no-repeat;
+}
+
+/* S2 - Our Mission*/
+.ourmission-text-left .whoweare-text {
+    right: -10%;
+}
+
+.ourmission-text-left .whoweare-bg {
+    margin-left: -10%;
+}
+
+#ourmission {
+    margin-bottom: 72px;
+}
+
+#ourmission .whoweare-bg {
+    background: url('../images/our-mission.png')no-repeat;
+}
+
+@media screen and (max-width: 400px) {
+    .whoweare-bg {
+        width: 90%;
+    }
+
+    .col-whoweare {
+        width: 90%;
+    }
+
+    .whoweare-text h3 {
+        width: 90%;
+    }
+
+    .whoweare-text {
+        width: 90%;
+    }
+}
+
+/* end of who we are*/
