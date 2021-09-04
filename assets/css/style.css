@@ -40,7 +40,8 @@ h2  {
 #hero-outer{	
     height:600px;	
     width: 100%;	
-    position: relative;	
+    position: relative;
+    margin-bottom: 10%;
 }	
 .responsive{
     display: 100%;
@@ -55,3 +56,73 @@ h2  {
         transform: scale(1.1);	
     }	
     }
+/*end of hero image*/ 
+
+/* SECTION THREE CLASS TIMES */
+
+#thisweek{
+    margin-top: 120px !important;
+    margin-left: 50px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .thisweek-container {
+    position: relative;
+    width: 90%;
+  }
+  
+  .thisweek-text {
+    background-color: #ffffff;
+    color: #28306C;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .thisweek-container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .thisweek-container:hover .middle {
+    opacity: 1;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+/*end of class times*/
+  
