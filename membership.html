@@ -45,65 +45,70 @@
         </nav>
     </header>
      <!--END OF HEADER-->
-<!--membership optoin cards-->
+<!--membership optoin cards code credit: https://www.w3schools.com/howto/howto_css_column_cards.asp-->
 <section>
-  <div id="membership-heading">
+  <div class="membership-heading">
     <h3>Membership Plans</h3>
-  </div>
-  <div class="row-membership">
-         <div class="column-membership">
-    <h3>Basic Plan</h3>
-    <p>
-      The basic plan gives you free unlimited access to the gym. You will also recieve a free monthly newsletter including recipes and home workouts. 
-    </p>
-    <h3>€29 per month</h3>
-  </div>
+      </div>
+    
+    <div class="row-membership">
+      <div class="column-membership">
+        <div class="card-membership">
+          <h3>Basic Plan</h3>
+            <p>The basic plan gives you free unlimited access to the gym. You will also recieve a free monthly newsletter including recipes and home workouts. 
+            </p>
+          <h3>€29 per month</h3>
+         </div>
+      </div>
 
-  <div class="column-membership">
-     <h3>
-      Premium Plan
-    </h3>
-     <p>
-      The premium plan includes all the benefits of the basic plan PLUS free access to all our classes and a branded Koffee and Kettlebells gym bag. 
-    </p>
-    <h3>€38 per month</h3>
-  </div>
+      <div class="column-membership">
+        <div class="card-membership">
+          <h3>Premium Plan</h3>
+            <p>The premium plan includes all the benefits of the basic plan PLUS free access to all our classes and a branded Koffee and Kettlebells gym bag. 
+            </p>
+          <h3>€38 per month</h3>
+        </div>
+      </div>
 
-  <div class="column-membership">
-        <h3>Platinum Plan</h3>
-            <p>
-      The Platinum plan includes all the benefits of the Premium plan PLUS a weekly session with a personal trainer AND a free coffee each week. </p>
-             <h3>€50 per month</h3>
-    </div>
-</div>
+      <div class="column-membership">
+        <div class="card-membership">
+          <h3>Platinum Plan</h3>
+            <p>The Platinum plan includes all the benefits of the Premium plan PLUS a weekly session with a personal trainer AND a free coffee each week. </p>
+          <h3>€50 per month</h3>
+        </div>
+      </div>
+  </div>
 </section>
 <!--END OF membership option cards-->
 
 <!--Form section-->
      <section class="form-section">
-      <form action="https://formdump.codeinstitute.net/" method="post"><h2>Choose your plan</h2>
-      <br>
-      <label for="basic" class="plan_preference">Basic </label>
-      <input type="radio" name="plan_preference" id="basic" value="basic" required>
-      
-      <label for="premium">Premium</label>
-      <input type="radio" id="premium" name="plan_preference" value="premium" required>
-      
-      <label for="Platinum" class="plan_preference">Platinum</label>
-      <input type="radio" name="plan_preference" id="platinum" value="platinum">
-      
-     <br>
-         <li><label for="fname">First Name  </label>
-      <input id="fname" type="text" name="first_name" style="padding-right: 3rem;" required></li>   
-      
-     <li><label for="lname">Last  Name </label>
-      <input id="lname" type="text" name="last_name" style="padding-right: 3rem;" required></li> 
-      
-     <li><label for="email">Email Address</label>
-      <input id="email" name="email_address" type="email" style="padding-right: 2rem;" required></li> 
-     
-      <input class="join-button" type="submit" value="Sign Up">
+        <div class="membership-heading">
+          <form action="https://formdump.codeinstitute.net/" method="post"><h3>Choose your plan</h3>
+        </div>
 
+        <div class="membership-heading">
+          <label for="basic" class="plan_preference">Basic </label>
+            <input type="radio" name="plan_preference" id="basic" stlye="margin-left=5px;" value="basic" required>
+      
+          <label for="premium">Premium</label>
+            <input type="radio" id="premium" name="plan_preference" value="premium" required>
+      
+          <label for="Platinum" class="plan_preference">Platinum</label>
+            <input type="radio" name="plan_preference" id="platinum" value="platinum">
+        </div>
+
+        <div class="membership-heading">
+           <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" style="padding-right: 3rem;" required>
+          <label for="lname">Last  Name </label>
+            <input id="lname" type="text" name="last_name" style="padding-right: 3rem;" required>
+          <label for="email">Email Address</label>
+            <input id="email" name="email_address" type="email" style="padding-right: 2rem;" required> 
+        </div>
+      <div class="membership-heading">
+      <input class="join-button" type="submit" value="Sign Up">
+      </div>
    
    </form>
 </section>

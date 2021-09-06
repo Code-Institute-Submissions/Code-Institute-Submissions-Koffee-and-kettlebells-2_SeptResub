@@ -282,6 +282,17 @@ h2 {
     margin-bottom: 10%;
 }
 /*MEMBERSHIP PAGE */
+
+.membership-heading{
+    margin-top: 2%;
+    text-align: center;
+}
+.card-membership {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
 .column-membership {
     float: left;
     width: 28%;
@@ -310,16 +321,21 @@ h2 {
   }
 
 /* form */
+#form-heading{
+    text-align: center;
+}
 
-.form-section {
-    clear: both;
-    background-size: cover;
-    background-position: center;
-    height: 200px;
+.gallery-headers{
+    margin-top: 10%;
     margin-left: 5%;
-    line-height: 30px;
-    word-spacing: 5px;
-    list-style: none;
+    margin-right: 5%;
+}
+
+.gallery{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 10%;
 }
+
 }
