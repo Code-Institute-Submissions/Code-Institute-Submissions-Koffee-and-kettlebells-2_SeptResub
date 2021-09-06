@@ -281,3 +281,17 @@ h2 {
     text-align: center;
     margin-bottom: 10%;
 }
+
+/* form */
+
+.form-section {
+    clear: both;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-left: 5%;
+    line-height: 30px;
+    word-spacing: 5px;
+    list-style: none;
+    margin-bottom: 10%;
+}
