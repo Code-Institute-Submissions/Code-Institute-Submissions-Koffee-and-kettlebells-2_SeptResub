@@ -126,11 +126,20 @@ h2 {
     .column {
         width: 100%;
     }
-}
+    #thisweek {
+        margin-top: 220px !important;
+        margin-left: 50px;
+        }
+    }
 
 /*end of class times*/
 
 /* who we are*/
+
+#whoweare{
+    margin-top: -30%;
+}
+
 .whoweare-header {
     text-transform: uppercase;
     font-size: 40px;
@@ -200,11 +209,11 @@ h2 {
 
 /* S2 - Our Community*/
 .ourcommunity-text-left .whoweare-text {
-    left: -10%;
+    right: -10%;
 }
 
 .ourcommunity-text-left .whoweare-bg {
-    margin-right: -10%;
+    margin-left: -10%;
 }
 
 #ourcommunity {
@@ -213,6 +222,7 @@ h2 {
 
 #ourcommunity .whoweare-bg {
     background: url('../images/our-community.png')no-repeat;
+    
 }
 
 /* S2 - Our Mission*/
@@ -233,8 +243,28 @@ h2 {
 }
 
 @media screen and (max-width: 400px) {
+
+    #ourcommunity .whoweare-bg {
+        width: 125%;
+        margin-top: 45%;
+    }
+
+    #ourmission .whoweare-bg{
+        width: 125%;
+        margin-top: 45%;
+    }
+
+    #ourteam .whoweare-bg {
+        width: 125%;
+        margin-top: 45%;
+    }
+
+    #whoweare {
+        margin-top: -81%;
+        margin-right: 10%;
+}
     .whoweare-bg {
-        width: 90%;
+        width: 100%;
     }
 
     .col-whoweare {
