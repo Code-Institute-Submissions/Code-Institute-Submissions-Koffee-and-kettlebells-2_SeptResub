@@ -6,7 +6,7 @@
 
 ![website preview](assets/images/responsive_image.png) 
 
-[View the live website here](https://mishsmelle.github.io/koffee-and-kettlebells/index.html)
+[View the live website here](https://mishsmelle.github.io/Koffee-and-kettlebells-2/index.html)
 
 The website was created for educational purposes only. The assignment was to build a gym website in HTML/CSS format that is user friendly, visually appealing and meets the gym owners goals of attracting and retaining members. This website features a gallery showcasing the best of the gym’s classes and facilities, a downloadable pdf menu for the on-site coffeehouse,  clear and concise information on classes, contact information and newsletter sign up option. 
 
