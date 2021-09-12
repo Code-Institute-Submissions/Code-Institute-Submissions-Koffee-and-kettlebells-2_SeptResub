@@ -46,7 +46,7 @@ h2 {
 }
 
 .responsive {
-    display: 100%;
+    display: auto;
     height: auto;
 }
 
