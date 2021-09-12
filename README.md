@@ -72,11 +72,11 @@ The stock images were all chosen to compliment each other and to add consistency
 
 ### Wireframes ###
 
-Home Page Wireframe - [View](assets/images/desktop-wireframe.png)
+Home Page Wireframe - [View](assets/images/README_images/desktop-wireframe.png)
 
-Mobile Wireframe - [View](assets/images/mobile_wireframe.png)
+Mobile Wireframe - [View](assets/images/README_images/mobile-wireframe.png)
 
-Online Classes Page Wireframe - [View](assets/images/onlineclasses-wireframe.png)
+Online Classes Page Wireframe - [View](assets/images/README_images/onlineclasses-wireframe.png)
 
 
 **Features**
@@ -211,7 +211,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 * Open your local IDE terminal. 
 * Change the current directory to where you want the cloned directory to be made.
 * Type git clone, and then paste the URL you copied in Step 3.
-* git clone https://github.com/mishsmelle/koffee-and-kettlebells
+* git clone https://github.com/Mishsmelle/Koffee-and-kettlebells-2
 * Press Enter. Your local clone will be created.
 
 ## Credits
