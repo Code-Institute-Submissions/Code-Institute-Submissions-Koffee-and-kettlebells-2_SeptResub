@@ -54,12 +54,12 @@ According to [Noobgains.com](https://noobgains.com/gym-membership-statistics/) T
 
 The colour palette was chosen to be fun, energetic and motivating. I primarily used a dark background with white text to appeal to our younger, new customers. White text on a darker background is considered more [“elite”, “creative” and “modern”](https://undsgn.com/website-dark-backgrounds/).  Except for section 2, “Who we are” as blocks of paragraph text are easier to read black on white. The main background colour chosen is #2E377F
 
-![hex colour](assets/images/hexcolour.png)
+![hex colour](assets/images/README_images/hex-colour.png)
 
 
 For hyperlinks, headings and any other use of highlighting text, I used a colour palette from the hero image: 
 
-![colour palette](assets/images/palette.png)
+![colour palette](assets/images/README_images/brand-colours.png)
 
 ### Typography ###
 
@@ -101,19 +101,30 @@ The project uses Bootstrap4 to simplify the structure of the website and make th
 ## Testing
 
 [HTML Validator](https://validator.w3.org/)   
-![](assets/images/html_validator_results.png) 
+INDEX.HTML
+![](assets/images/README_images/index validator.png) 
+KETTLEBELLS.HTML
+![](assets/images/README_images/kettlebells validator.png)
+KOFFEEHOUSE.HTML
+![](assets/images/README_images/koffeehouse validator.png)
+LUNCHTIME.HTML
+![](assets/images/README_images/lunchtime validator.png)
+MEMBERSHIP.HTML
+![](assets/images/README_images/membership validator.png)
+BEGINNNERS.HTML
+![](assets/images/README_images/beginners validator.png)
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
-![](assets/images/CSS_validator_results.png)
+![](assets/images/README_images/css-validator.png)
 
 [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 
-[Mobile - Friendly Test](https://search.google.com/test/mobile-friendly)
-![](assets/images/mobile_friendly_results.png)
+[Mobile - Friendly Test](https://search.google.com/test/mobile-friendly?id=R1ISblwUdxwjx3qlWbqhlQ)
+![](assets/images/README_images/mobile-friendly.png)
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) - was used to improve the quality of the website.
 
-![](assets/images/Lighthouse_results.png)
+![](assets/images/README_images/Lighthouse.png)
 
 ### Testing User Stories from User Experience (UX) Section ###
 
