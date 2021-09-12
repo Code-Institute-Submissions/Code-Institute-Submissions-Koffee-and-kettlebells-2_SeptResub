@@ -100,31 +100,37 @@ The project uses Bootstrap4 to simplify the structure of the website and make th
 
 ## Testing
 
-[HTML Validator](https://validator.w3.org/)   
+[HTML Validator](https://validator.w3.org/) 
+
 INDEX.HTML
-![](assets/images/README_images/index validator.png) 
+![index](assets/images/README_images/index-validator.png) 
+
 KETTLEBELLS.HTML
-![](assets/images/README_images/kettlebells validator.png)
+![kettlebells](assets/images/README_images/kettlebells-validator.png)
+
 KOFFEEHOUSE.HTML
-![](assets/images/README_images/koffeehouse validator.png)
+![koffeehouse](assets/images/README_images/koffeehouse-validator.png)
+
 LUNCHTIME.HTML
-![](assets/images/README_images/lunchtime validator.png)
+![lunchtime](assets/images/README_images/lunchtime-validator.png)
+
 MEMBERSHIP.HTML
-![](assets/images/README_images/membership validator.png)
+![membership](assets/images/README_images/membership-validator.png)
+
 BEGINNNERS.HTML
-![](assets/images/README_images/beginners validator.png)
+![beginners](/assets/images/README_images/beginners-validator.png)
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
-![](assets/images/README_images/css-validator.png)
+![css validator image](assets/images/README_images/css-validator.png)
 
 [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 
 [Mobile - Friendly Test](https://search.google.com/test/mobile-friendly?id=R1ISblwUdxwjx3qlWbqhlQ)
-![](assets/images/README_images/mobile-friendly.png)
+![mobile friendly image](assets/images/README_images/mobile-friendly.png)
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) - was used to improve the quality of the website.
 
-![](assets/images/README_images/Lighthouse.png)
+![lghthouse image](assets/images/README_images/Lighthouse.png)
 
 ### Testing User Stories from User Experience (UX) Section ###
 
